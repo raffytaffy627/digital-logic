@@ -38,8 +38,22 @@ truth table and instructions for running it.
 
 ## Running the simulations
 
-All testbenches were written for [Icarus Verilog](http://iverilog.icarus.com/).
-If you have it installed:
+All testbenches were written for [Icarus Verilog](http://iverilog.icarus.com/)
+and were actually compiled and run with it while building this (not just
+written and hoped to work) - all three stages pass, including the 4-bit
+adder's 25-case self-checking testbench.
+
+**Run everything at once** with the included script instead of cd-ing into
+each folder by hand:
+
+```bash
+./run_tests.sh       # Linux/Mac
+```
+```powershell
+.\run_tests.ps1       # Windows
+```
+
+Or run a single stage manually:
 
 ```bash
 cd half-adder

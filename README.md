@@ -89,6 +89,10 @@ I built from scratch. Its ALU is still "just" adders at heart: one 33-bit
 adder does add, sub, slt and sltu all at once, which is the carry-in/inverted
 operand trick from this repo in action :3
 
+## Changelog
+
+- **2026-09-27** - added a "where this went next" section about [purr-v](https://github.com/raffytaffy627/purr-v), my RISC-V CPU, and the [Rafin Hasan License](LICENSE)
+
 ## License
 
 [The Rafin Hasan License](LICENSE). Use it for anything, just keep the credit :3

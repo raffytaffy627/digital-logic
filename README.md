@@ -80,3 +80,15 @@ simulator.
   `a + b + cin` computed directly in the testbench itself) instead of just
   eyeballing printed values - much faster way to catch a wiring mistake than
   reading through a wall of `$display` output by hand.
+
+## Where this went next
+
+These adders were my first Verilog. The next big step was
+[purr-v](https://github.com/raffytaffy627/purr-v), a whole pipelined RISC-V CPU
+I built from scratch. Its ALU is still "just" adders at heart: one 33-bit
+adder does add, sub, slt and sltu all at once, which is the carry-in/inverted
+operand trick from this repo in action :3
+
+## License
+
+[The Rafin Hasan License](LICENSE). Use it for anything, just keep the credit :3
